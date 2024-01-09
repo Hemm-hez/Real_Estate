@@ -1,0 +1,26 @@
+.eco-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.ecocard{
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px
+}
+.ecocard label{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ecocard p{
+    font-size: 14px;
+}
+.ecocard img{
+width: 100%;
+height: 200px;
+object-fit: fill;
+margin: 0px;
+padding: 0px;
+}
