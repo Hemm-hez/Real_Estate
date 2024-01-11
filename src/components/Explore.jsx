@@ -189,9 +189,10 @@ const Explore = () => {
                 </div>
               <div className="butt-center mt-3 mb-5">
               <button as={Link} to="/">Browse Now 
-              <span className='mx-2'>
+              <span className='mx-2 tohide'>
               <i className="bi bi-arrow-up-right"></i>
             </span>
+            {/* <span className='functions'><i className="fa-solid fa-arrow-right"></i></span> */}
              </button>
               </div>
     </div>

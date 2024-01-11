@@ -8,7 +8,7 @@ const Section = () => {
   return (
     <div className="Section-card px-5">
       <div className="first_card row my-5">
-        <div className=" col-md-5 text-card mb-5">
+        <div className=" col-md-5 whoplease text-card mb-5">
           <div className="pee">
             <span className="me-2"></span>
             <p>WHO WE ARE</p>
@@ -33,7 +33,7 @@ const Section = () => {
           style={{ backgroundImage: `url(${teamroof})` }}
         ></div>
       </div>
-      <div className="second_card row my-5">
+      <div className="second_card row my-5 missionpls">
         <div className="text-cardtwo col-md-5 mb-5 order-md-2">
           <div className="pee-two">
             <span className="me-2"></span>

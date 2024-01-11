@@ -15,29 +15,28 @@
     position: fixed;
     top: 0;
     margin-bottom: 10px;
- background-color: rgba(11, 10, 11, 0.605);
- backdrop-filter: blur(10px);
+    background-color: rgba(11, 10, 11, 0.705);
+    backdrop-filter: blur(20px);
     width: 100%;
     height: 100%;
     left: 0;
-    background-attachment: fixed;
-    overflow-y: hidden;
 }
+
+
 .centeritems  ul{
     display: grid;
     align-items: center;
     margin: 0px;
-    padding: 4em 0px 0px 0px;
-    
-}
+    padding: 0px 10px ;
+    }
 .x-mark i{
     display: grid;
     color: white;
 }
+
 .centeritems li{
 padding: 0px;
 list-style-type: none;
-margin: 0px;
 padding:20px 10px;
 }
 .centeritems a, label{
@@ -51,9 +50,11 @@ padding:20px 10px;
     font-size: 12px;
     margin-left: 5px;
 }
+
 .orderedlist span{
     visibility: hidden;
 }
+
 
 .buttons button:nth-child(1){
     border: 2px solid white;
@@ -62,7 +63,6 @@ padding:20px 10px;
     border-radius: 50px;
     color: white;
     background-color: transparent;
-    display: grid;
     align-items: center;
     font-weight: 400;
     margin: 0px auto;
@@ -74,7 +74,6 @@ padding:20px 10px;
     border-radius: 50px;
     color: white;
     background-color: transparent;
-    display: grid;
     align-items: center;
     background-color: #3b71c9;
     font-weight: 400;
@@ -88,18 +87,25 @@ padding:20px 10px;
     background-color: white;
     margin-right: 10px;
 }
-.hidemedscreen{
+
+.centeritems{
     display: none;
 }
-/* LARGE SCREEN CSS */
-.buttons{
-    display: grid;
+.buttons .login:hover {
+    color: white;
+    background-color: #3b71c9;
 }
-@media (min-width:900px) {
+.buttons .newacct:hover {
+    color:#3b71c9;
+    background-color:white ;
+    }
+/* LARGE SCREEN CSS */
+
+@media (min-width:992px) {
     .buttons{
         display: flex;
-        column-gap: 15px;
     }
+
     .nav-items a{
         color: white;
         text-decoration: none;
@@ -113,7 +119,6 @@ padding:20px 10px;
         text-decoration: none;
     }
     .centeritems{
-        display: flex;
         position: static;
         column-gap:7em;
         align-items: center;
@@ -140,32 +145,39 @@ padding:20px 10px;
         margin: auto;
         font-size: 70%;
     }
+
     .buttons button:nth-child(1){
         width: 100%;
         /* max-width: 70px; */
         margin: auto;
         font-size: 70%;
     }
+
     .hamburger span{
         display: none;
     }
+
     .orderedlist span{
         visibility: visible;
     }
-    .x-mark i{
+
+    .x-mark {
         display: none;
     }
 }
 @media (min-width:1300px) {
+
     .centeritems{
         gap: 15em;  
     }
+
     .nav-items a{
         color: white;
         text-decoration: none;
         font-size: 22px;
         font-weight: 700;
     }
+
     .centeritems a, label{
         color: white;
         font-size: 17px;
@@ -174,18 +186,19 @@ padding:20px 10px;
     }
     
     .buttons button:nth-child(2){
-        /* max-width: 100%; */
            width: 170px;
             margin: auto;
             font-size: 90%;
         }
         .buttons button:nth-child(1){
             width:70px;
-            /* max-width: 70px; */
             margin: auto;
             font-size: 90%;
         }
+        .x-mark{
+            display: none;
+        }
+    }
         
    
    
-}

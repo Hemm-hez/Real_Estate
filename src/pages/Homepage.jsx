@@ -3,6 +3,9 @@ import Herosection from "../components/Herosection"
 import Section from '../components/Section'
 import Explore from '../components/Explore'
 import Ecosection from '../components/Ecosection'
+import Reviews from '../components/Reviews'
+import Questions from '../components/Questions'
+import Sendmessage from '../components/Sendmessage'
 
 const Homepage = () => {
   return (
@@ -10,7 +13,10 @@ const Homepage = () => {
       <Herosection/>
       <Section/>
       <Explore/>
-      {/* <Ecosection/> */}
+      <Ecosection/>
+      <Reviews/>
+      <Questions/>
+      {/* <Sendmessage/> */}
     </div>
   )
 }

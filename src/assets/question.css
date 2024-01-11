@@ -1,0 +1,26 @@
+.frquent{
+    column-gap: 15px;
+    justify-content: space-around;
+}
+.forspan{
+    display: flex;
+    align-items: start;
+}
+.forspan span{
+    width: 60px;
+    height: 2px;
+    color: #3b71c9;
+    display: flex;
+    background-color: #3b71c9;
+}
+.frequentquest button{
+width: 130px;
+height: 40px;
+border: none;
+background-color: #3b71c9;
+color: white;
+border-radius: 50px;
+}
+.questionanswer p{
+font-size: 14px;
+}

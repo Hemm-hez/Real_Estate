@@ -1,0 +1,35 @@
+.message{
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4E5DF;
+}
+.control-form{
+    display: grid;
+    align-items: center;
+    place-items: center;
+    height: 70%;
+}
+.form{
+    border: 1px solid #3b3b3b;
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+}
+.form label{
+    color: black;
+    display: flex;
+    align-items: start;
+}
+.names{
+    display: flex;
+    column-gap: 10px;
+}
+.full-name{
+    display: grid;
+}
+.full-name i, .phone-number i{
+    font-size: 6px;
+    color: red;
+}

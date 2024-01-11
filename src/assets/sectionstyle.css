@@ -86,6 +86,16 @@
     color: white;
     border-radius: 50px;
 }
+.whoplease:hover button{
+   background-color: white;
+   color: #3b71c9;
+   border: 1px solid #3b71c9;
+}
+.missionpls:hover button{
+    background-color: white;
+    color: #3b71c9;
+    border: 1px solid #3b71c9;
+}
 /* .searrchbar:focus{
     outline-style: solid;
     outline-color: #3b71c9;

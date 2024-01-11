@@ -1,0 +1,59 @@
+.stars{
+    display: flex;
+}
+.carousel-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 10px;
+}
+.stars i{
+    color: #E7AA3D;
+    font-size: 14px;
+    /* background-color: #E7AA3D; */
+}
+.card-quote blockquote{
+    font-size: 15px;
+    font-weight: 500;
+}
+.quote{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -30px;
+    width: 70px;
+    height: 70px;
+    background-color: #E4E5DF;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+.quote i{
+    color: #37b1c9;
+}
+.card-quote{
+    border: 1px solid #E4E5DF;
+    border-radius: 10px;
+}
+.john i,.susan i{
+    color: #E2E2E2;
+}
+.carousel_button{
+    display: flex;
+    position: absolute; 
+    left: 45%;
+    gap: 10px;
+}
+.carousel_button button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.nextbut:hover i {
+    color: #37b1c9;
+}
+.prevbut:hover i{
+    color: #37b1c9;
+}
+
