@@ -30,8 +30,8 @@ const Navbar = () => {
             </ul>
             </div>
             <div className="buttons d-lg-flex d-grid mt-5 mt-lg-0" >
-          <button className='me-lg-2 login' as={Link} to="/">Login</button>
-          <button className='newacct' as={Link} to="/">Create an account</button>
+        <Link to="/login" className='me-lg-2 login'>Log In</Link>
+          <Link to="/register" className='newacct'>Create an account</Link>
            </div>
            
            </div>

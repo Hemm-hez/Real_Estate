@@ -1,0 +1,45 @@
+.footer{
+    background-color: #3b71c9;
+    
+}
+.foot_in{
+    justify-content: space-between;
+}
+.spanlogo{
+    display: flex;
+}
+.navigate div, .support div, .company div{
+    display:  grid;
+}
+.footer h5{
+    color: white;
+}
+.navigate a, .support a, .company a{
+text-decoration: none;
+color: white;
+margin-bottom: 7px;
+}
+.icons a{
+    color: #3b71c9;
+ 
+}
+
+.icons  i{
+    width: 40px;
+    height: 40px;
+   border: none;
+   border-radius: 50%;
+    background-color: white;
+    padding: 13px;
+}
+.spanbutlogo button{
+    width: 150px;
+    height: 40px;
+    background-color:white;
+    color:  #3b71c9;
+    border-radius: 50px;
+    border: none;
+}
+.footer p{
+    font-size: 12px;
+}

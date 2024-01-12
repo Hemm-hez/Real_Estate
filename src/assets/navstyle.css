@@ -56,9 +56,11 @@ padding:20px 10px;
 }
 
 
-.buttons button:nth-child(1){
+.login{
     border: 2px solid white;
     width: 90%;
+    display: grid;
+    place-items: center;
     height: 40px;
     border-radius: 50px;
     color: white;
@@ -67,18 +69,21 @@ padding:20px 10px;
     font-weight: 400;
     margin: 0px auto;
 }
-.buttons button:nth-child(2){
+.newacct{
     border: none;
     width: 90%;
     height: 40px;
     border-radius: 50px;
     color: white;
     background-color: transparent;
+    display: grid;
+    place-items: center;
     align-items: center;
     background-color: #3b71c9;
     font-weight: 400;
     margin: 0px auto;
 }
+
 .hamburger span{
     display: grid;
     height: 3px;
@@ -91,11 +96,11 @@ padding:20px 10px;
 .centeritems{
     display: none;
 }
-.buttons .login:hover {
+.login:hover {
     color: white;
     background-color: #3b71c9;
 }
-.buttons .newacct:hover {
+.newacct:hover {
     color:#3b71c9;
     background-color:white ;
     }
@@ -139,14 +144,13 @@ padding:20px 10px;
     .buttons{
         margin-right: 10px;
     }
-    .buttons button:nth-child(2){
-    /* max-width: 100%; */
+ .newacct{
        width: 100%;
         margin: auto;
         font-size: 70%;
     }
 
-    .buttons button:nth-child(1){
+    .login{
         width: 100%;
         /* max-width: 70px; */
         margin: auto;
@@ -185,12 +189,12 @@ padding:20px 10px;
         text-decoration: none;
     }
     
-    .buttons button:nth-child(2){
+.newacct{
            width: 170px;
             margin: auto;
             font-size: 90%;
         }
-        .buttons button:nth-child(1){
+        .login{
             width:70px;
             margin: auto;
             font-size: 90%;

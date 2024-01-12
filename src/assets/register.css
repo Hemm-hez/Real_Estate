@@ -1,0 +1,34 @@
+.registeracct{
+    /* width: 100%; */
+    align-items: center;
+    place-items: center;
+    display: grid;
+    height: 100%;
+    /* height: 100vh; */
+    background-color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.registeracct label{
+    color: white;
+}
+form{
+ background-color: rgba(11, 10, 11, 0.606);
+ backdrop-filter: blur(5px);
+}
+form span{
+    font-size: 12px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+.butforcreate{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #3b71c9;
+}

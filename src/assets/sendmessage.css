@@ -1,8 +1,6 @@
-.message{
+.form-message{
     display: grid;
     height: 100%;
-    align-items: center;
-    justify-content: center;
     background-color: #E4E5DF;
 }
 .control-form{
@@ -11,25 +9,74 @@
     place-items: center;
     height: 70%;
 }
-.form{
-    border: 1px solid #3b3b3b;
-    height: 400px;
-    width: 80%;
+form{
     border-radius: 10px;
+    display: grid;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    border: none;
+    background-color: white;
 }
-.form label{
+.form-input input{
+    font-size: 13px;
+    background-color: #F1F1F1;
+    height: 40px;
+    font-weight: 500;
+    border: none;
+}
+
+form label{
     color: black;
     display: flex;
     align-items: start;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
-.names{
-    display: flex;
-    column-gap: 10px;
-}
-.full-name{
-    display: grid;
-}
-.full-name i, .phone-number i{
-    font-size: 6px;
+form span i{
     color: red;
+    font-size: 8px;
+    margin-left: 3px;
+}
+.select-input select{
+    /* width: 100%; */
+    font-size: 13px;
+    background-color: #F1F1F1;
+    height: 40px;
+    font-weight: 500;
+    border: none;
+    border: none;
+}
+.additional_info textarea{
+    height: 80px;
+    background-color: #F1F1F1;
+    border: none;
+}
+.sendbutton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #3B71C9;
+    border-radius: 50px;
+}
+.send, .call,.hours,.address{
+    display: flex;
+    align-items: start;
+}
+.send i, .call i,.hours i,.address i{
+    color: #3B71C9;
+}
+.send a, .call a,.hours p,.address p{
+    color: #3B71C9;
+    text-decoration: none;
+}
+
+
+@media (min-width:992px) {
+    .names input{
+        width: 190px;
+    }
+    
 }

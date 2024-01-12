@@ -6,6 +6,9 @@ import Ecosection from '../components/Ecosection'
 import Reviews from '../components/Reviews'
 import Questions from '../components/Questions'
 import Sendmessage from '../components/Sendmessage'
+import Findhome from '../components/Findhome'
+import Footer from '../components/Footer'
+
 
 const Homepage = () => {
   return (
@@ -16,7 +19,9 @@ const Homepage = () => {
       <Ecosection/>
       <Reviews/>
       <Questions/>
-      {/* <Sendmessage/> */}
+      <Sendmessage/>
+    <Findhome/>
+    <Footer/>
     </div>
   )
 }

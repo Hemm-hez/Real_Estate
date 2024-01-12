@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
     <div className="px-5 py-5">
       <div className="customers_review">
-        <h3 className="text-lg-center display-5 fw-semibold">What our customers say</h3>
+        <h6 className="text-lg-center display-5 fw-semibold">What our customers say</h6>
         <p className="text-lg-center mb-5 fs-5">
           Hear from our satisfied customers and clients{" "}
         </p>

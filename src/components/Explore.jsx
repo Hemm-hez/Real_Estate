@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const Explore = () => {
   return (
-    <div className='px-5'>
+    <div id='explore' className='px-5'>
         <h3>Explore Eco-Friendly Homes Near You</h3>
         <div className="listedinmarket">
             <div className="market">

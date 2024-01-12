@@ -1,0 +1,29 @@
+.ready{
+    height: 60%;
+}
+.forbgimage{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+.friendly{
+    max-width: 100%;
+display: grid;
+align-items: center;
+place-items: center;
+    max-height: 100%;
+    background-color: white;
+}
+.friendly button{
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #3b71c9;
+    color: white;
+    border: none;
+}

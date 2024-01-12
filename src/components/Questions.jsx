@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/question.css";
+import { Link } from "react-router-dom";
 
 const Questions = () => {
   return (
@@ -16,12 +17,15 @@ const Questions = () => {
             answer to the questions.
           </p>
           <h5 className="mb-4">Have a different question?</h5>
-          <button>
-            Contact Us{" "}
+         <a href="#contact">
+         <button>
+            Contact Us
             <span>
               <i className="bi bi-arrow-up-right"></i>
             </span>
           </button>
+         </a>
+         
         </div>
         <div className="col-md-5 questionanswer">
           <hr />

@@ -3,6 +3,8 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import CreateAcctPage from './pages/CreateAcctPage'
 import LoginPage from './pages/LoginPage'
+import Error from "./pages/Error"
+import Footer from './components/Footer'
 
 function App() {
  
@@ -14,7 +16,9 @@ function App() {
       <Route path='/' element={ <Homepage/>}/>
       <Route path='Register' element={<CreateAcctPage/>}/>
       <Route path='Login' element={<LoginPage/>}/>
+      <Route path='*'element={<Error/>}/>
     </Routes>
+    {/* <Footer/> */}
     </BrowserRouter>
     </div>
   )
